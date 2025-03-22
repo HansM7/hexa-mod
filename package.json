@@ -1,10 +1,10 @@
 {
   "name": "hexa-mod",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Herramienta CLI para crear módulos en proyectos NestJS.",
   "main": "lib/index.js",
   "bin": {
-    "hex-mod": "bin/hex-mod.js"
+    "hexa-mod": "bin/index.js"
   },
   "type": "module",
   "scripts": {
