@@ -1,0 +1,26 @@
+{
+  "name": "hexa-mod",
+  "version": "1.0.0",
+  "description": "Herramienta CLI para crear módulos en proyectos NestJS.",
+  "main": "lib/index.js",
+  "bin": {
+    "hex-mod": "bin/hex-mod.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nestjs",
+    "cli",
+    "module"
+  ],
+  "author": "Hans Melchor",
+  "license": "MIT",
+  "copyright":"© 2025 Hans Melchor. Todos los derechos reservados.",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0",
+    "inquirer": "^8.2.4"
+  }
+}
