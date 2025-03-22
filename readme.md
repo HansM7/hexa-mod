@@ -14,6 +14,11 @@
 
 ---
 
+## Requisitos
+
+Asegurate de haber inicializado tu aplicacion con Nestjs, caso contrario no te dejara ejecutar los comando.
+
+
 ## Instalación 📦
 
 Para instalar **hexa-mod**, ejecuta el siguiente comando:
@@ -28,3 +33,47 @@ Para generar un módulo debe ejecutar el siguiente comando
 
 ```bash
 npx hexa-mod <nombre-del-modulo>
+```
+
+## Formato de carpetas
+```
+└── 📁user
+    └── 📁application
+        └── 📁services
+            └── 📁commands
+                └── user-create.service.ts
+                └── user-delete.service.ts
+                └── user-update.service.ts
+            └── 📁queries
+                └── user-find.service.ts
+        └── 📁use-cases
+            └── 📁commands
+                └── user-create.use-case.ts
+                └── user-delete.use-case.ts
+                └── user-update.use-case.ts
+            └── 📁queries
+                └── user-find.use-case.ts
+    └── 📁config
+        └── user.config.ts
+        └── user.module.ts
+    └── 📁domain
+        └── 📁dtos
+            └── user-create.dto.ts
+            └── user-update.dto.ts
+        └── 📁entities
+            └── user.entity.ts
+        └── 📁interfaces
+            └── user-create.interface.ts
+            └── user-update.interface.ts
+        └── 📁requests
+            └── user-find-all.request.ts
+    └── 📁infrastructure
+        └── 📁adapters
+            └── 📁implements
+                └── user-repository.impl.ts
+            └── 📁ports
+                └── user-repository.port.ts
+        └── 📁controllers
+            └── user.controller.ts
+        ├── middlewares
+```
