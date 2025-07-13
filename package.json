@@ -1,11 +1,15 @@
 {
   "name": "hexa-mod",
-  "version": "1.0.5",
-  "description": "Herramienta CLI para crear módulos en proyectos NestJS.",
+  "version": "1.0.7",
+  "description": "CLI tool for generating modular NestJS applications with combined architecture (Hexagonal, DDD, Clean Code)",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/HansM7/hexa-mod.git"
+  },
+  "homepage": "https://github.com/HansM7/hexa-mod#readme",
+  "bugs": {
+    "url": "https://github.com/HansM7/hexa-mod/issues"
   },
   "bin": {
     "hexa-mod": "lib/index.js"
@@ -17,14 +21,28 @@
   "keywords": [
     "nestjs",
     "cli",
-    "module"
+    "module-generator",
+    "architecture",
+    "hexagonal-architecture",
+    "ddd",
+    "clean-code",
+    "nodejs",
+    "typescript",
+    "backend",
+    "scalable-architecture",
+    "boilerplate",
+    "project-structure",
+    "enterprise-architecture"
   ],
-  "author": "Hans Melchor",
+  "author": "Hans Melchor <tu-email@example.com> (https://github.com/HansM7)",
   "license": "MIT",
-  "copyright":"© 2025 Hans Melchor. Todos los derechos reservados.",
+  "copyright": "© 2025 Hans Melchor. Todos los derechos reservados.",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^13.1.0",
     "inquirer": "^8.2.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }

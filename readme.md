@@ -18,7 +18,6 @@
 
 Asegurate de haber inicializado tu aplicacion con Nestjs, caso contrario no te dejara ejecutar los comando.
 
-
 ## Instalación 📦
 
 Para instalar **hexa-mod**, ejecuta el siguiente comando:
@@ -36,44 +35,59 @@ npx hexa-mod <nombre-del-modulo>
 ```
 
 ## Formato de carpetas
+
 ```
 └── 📁user
     └── 📁application
         └── 📁services
             └── 📁commands
-                └── user-create.service.ts
-                └── user-delete.service.ts
-                └── user-update.service.ts
+                ├── user-create.service.ts
+                ├── user-delete.service.ts
+                ├── user-update.service.ts
             └── 📁queries
-                └── user-find.service.ts
+                ├── user-find-all.service.ts
+                ├── user-find-one.service.ts
         └── 📁use-cases
             └── 📁commands
-                └── user-create.use-case.ts
-                └── user-delete.use-case.ts
-                └── user-update.use-case.ts
+                ├── user-create.use-case.ts
+                ├── user-delete.use-case.ts
+                ├── user-update.use-case.ts
             └── 📁queries
-                └── user-find.use-case.ts
+                ├── user-find-all.use-case.ts
+                ├── user-find-one.use-case.ts
     └── 📁config
-        └── user.config.ts
-        └── user.module.ts
+        ├── user.config.ts
+        ├── user.module.ts
     └── 📁domain
         └── 📁dtos
-            └── user-create.dto.ts
-            └── user-update.dto.ts
+            ├── user-create.dto.ts
+            ├── user-update.dto.ts
         └── 📁entities
-            └── user.entity.ts
+            ├── user.entity.ts
+        └── 📁factories
+            ├── user.factory.ts
         └── 📁interfaces
-            └── user-create.interface.ts
-            └── user-update.interface.ts
+            ├── user-create.interface.ts
+            ├── user-update.interface.ts
         └── 📁requests
-            └── user-find-all.request.ts
+            ├── user-create.request.ts
+            ├── user-delete.request.ts
+            ├── user-find-all.request.ts
+            ├── user-find-one.request.ts
+            ├── user-update.request.ts
+        └── 📁responses
+            ├── user-create.response.ts
+            ├── user-delete.response.ts
+            ├── user-find-all.response.ts
+            ├── user-find-one.response.ts
+            ├── user-update.response.ts
     └── 📁infrastructure
         └── 📁adapters
             └── 📁implements
-                └── user-repository.impl.ts
+                ├── user-repository.impl.ts
             └── 📁ports
-                └── user-repository.port.ts
+                ├── user-repository.port.ts
         └── 📁controllers
-            └── user.controller.ts
-        ├── middlewares
+            ├── user.controller.ts
+        └── middlewares
 ```
