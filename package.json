@@ -34,7 +34,7 @@
     "project-structure",
     "enterprise-architecture"
   ],
-  "author": "Hans Melchor <tu-email@example.com> (https://github.com/HansM7)",
+  "author": "Hans Melchor (https://github.com/HansM7)",
   "license": "MIT",
   "copyright": "© 2025 Hans Melchor. Todos los derechos reservados.",
   "dependencies": {
