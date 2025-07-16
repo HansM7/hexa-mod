@@ -1,6 +1,6 @@
 {
   "name": "hexa-mod",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "CLI tool for generating modular NestJS applications with combined architecture (Hexagonal, DDD, Clean Code)",
   "main": "lib/index.js",
   "repository": {

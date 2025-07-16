@@ -39,14 +39,11 @@ npx hexa-mod <nombre-del-modulo>
 ```
 └── 📁user
     └── 📁application
-        └── 📁services
-            └── 📁commands
-                ├── user-create.service.ts
-                ├── user-delete.service.ts
-                ├── user-update.service.ts
-            └── 📁queries
-                ├── user-find-all.service.ts
-                ├── user-find-one.service.ts
+        └── 📁dtos
+            ├── user-create-request.dto.ts
+            ├── user-create-response.dto.ts
+            ├── user-update-request.dto.ts
+            ├── user-update-response.dto.ts
         └── 📁use-cases
             └── 📁commands
                 ├── user-create.use-case.ts
@@ -59,9 +56,6 @@ npx hexa-mod <nombre-del-modulo>
         ├── user.config.ts
         ├── user.module.ts
     └── 📁domain
-        └── 📁dtos
-            ├── user-create.dto.ts
-            ├── user-update.dto.ts
         └── 📁entities
             ├── user.entity.ts
         └── 📁factories
@@ -69,18 +63,14 @@ npx hexa-mod <nombre-del-modulo>
         └── 📁interfaces
             ├── user-create.interface.ts
             ├── user-update.interface.ts
-        └── 📁requests
-            ├── user-create.request.ts
-            ├── user-delete.request.ts
-            ├── user-find-all.request.ts
-            ├── user-find-one.request.ts
-            ├── user-update.request.ts
-        └── 📁responses
-            ├── user-create.response.ts
-            ├── user-delete.response.ts
-            ├── user-find-all.response.ts
-            ├── user-find-one.response.ts
-            ├── user-update.response.ts
+        └── 📁services
+            └── 📁commands
+                ├── user-create.service.ts
+                ├── user-delete.service.ts
+                ├── user-update.service.ts
+            └── 📁queries
+                ├── user-find-all.service.ts
+                ├── user-find-one.service.ts
     └── 📁infrastructure
         └── 📁adapters
             └── 📁implements
